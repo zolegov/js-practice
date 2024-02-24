@@ -78,16 +78,31 @@
 // НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
 
 
-const messege = Number(prompt("В якому місяці ви народились"));
+// const messege = Number(prompt("В якому місяці ви народились"));
 
-if (messege >= 3 && messege <= 5) {
-    console.log("Ви народились весною");
-} else if (messege >= 6 && messege <= 8) {
-    console.log("Ви народились літом");
-} else if (messege >= 9 && messege <= 11) {
-    console.log("Ви народились осінню");
-} else if (messege === 2 || messege === 1 || messege === 12) {
-  console.log("Ви народились зимою");
+// if (messege >= 3 && messege <= 5) {
+//     console.log("Ви народились весною");
+// } else if (messege >= 6 && messege <= 8) {
+//     console.log("Ви народились літом");
+// } else if (messege >= 9 && messege <= 11) {
+//     console.log("Ви народились осінню");
+// } else if (messege === 2 || messege === 1 || messege === 12) {
+//   console.log("Ви народились зимою");
+// } else {
+//     console.log("Введіть число від 1 до 12");
+// }
+
+// ЗАДАЧА 7
+// НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІН І ПАРОЛЬ,
+//   І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ, ЩО НЕ ВІРНИЙ ЛОГІН
+
+const password = 1111;
+const email = "js@mail.com";
+
+const enterYorPasswod = prompt("enter password");
+const enterYuorMail = prompt("enter email");
+if (password == enterYorPasswod && enterYuorMail === email) {
+  console.log("welcome");
 } else {
-    console.log("Введіть число від 1 до 12");
+  console.log("error");
 }
