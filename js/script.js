@@ -36,20 +36,34 @@
 // "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
 
-const months = Number(prompt("скільки місяців має рік?"));
-if (months === 12) {
-    console.log("Вірно");
-} else {
-    console.log("Не знаєте");
-}
+// const months = Number(prompt("скільки місяців має рік?"));
+// if (months === 12) {
+//     console.log("Вірно");
+// } else {
+//     console.log("Не знаєте");
+// }
 
 
 // ЗАДАЧА 5
 // НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ВИЗНАЧАТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
 
-const amount = Number(prompt("парне число?"));
-if (amount % 2 === 0 ) {
-    console.log("парне");
-} else {
-    console.log("не парне");
-}
+// const amount = Number(prompt("парне число?"));
+// if (amount % 2 === 0 ) {
+//     console.log("парне");
+// } else {
+//     console.log("не парне");
+// }
+
+
+// ЗАДАЧА 10
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7
+// "Your name isn't very long"
+
+// const userName = prompt("enter your name");
+
+// if (userName.length > 7) {
+//     console.log("Wow, you  have a REALLY long name!");
+// }
+// else {
+//     console.log("Your name isn't very long");
+// }
