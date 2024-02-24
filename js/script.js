@@ -23,10 +23,11 @@
 // ПОТРІБНО ЗАПИТАТИ У МАГАЗИНІ ЦІНУ ЗА КОЖЕН ОКРЕМИЙ ТОВАР,
 // ТА ВИВЕСТИ ПОВІДОМЛЕННЯМ  ЗАГАЛЬНУ ЦІНУ ТОВАРУ
 
-const priceDes = Number(prompt("введіть ціну компютера"));
-const pricePhone = +prompt("введіть ціну телефону");
-const priceLeptop = +prompt("введіть ціну ноутбука");
-const totalPrice = priceDes + pricePhone + priceLeptop;
+// const priceDes = Number(prompt("введіть ціну компютера"));
+// const pricePhone = +prompt("введіть ціну телефону");
+// const priceLeptop = +prompt("введіть ціну ноутбука");
+// const totalPrice = priceDes + pricePhone + priceLeptop;
 
-const massage = `Загальна ціна товару ${totalPrice}`;
-console.log(massage);
+// const massage = `Загальна ціна товару ${totalPrice}`;
+// console.log(massage);
+
