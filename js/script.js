@@ -61,9 +61,33 @@
 
 // const userName = prompt("enter your name");
 
+// const result =
+//   userName.length > 7
+//     ? "Wow, you  have a REALLY long name!"
+//     : "Your name isn't very long";
+// console.log(result);
+
 // if (userName.length > 7) {
 //     console.log("Wow, you  have a REALLY long name!");
 // }
 // else {
 //     console.log("Your name isn't very long");
 // }
+
+// ЗАДАЧА 6
+// НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
+
+
+const messege = Number(prompt("В якому місяці ви народились"));
+
+if (messege >= 3 && messege <= 5) {
+    console.log("Ви народились весною");
+} else if (messege >= 6 && messege <= 8) {
+    console.log("Ви народились літом");
+} else if (messege >= 9 && messege <= 11) {
+    console.log("Ви народились осінню");
+} else if (messege === 2 || messege === 1 || messege === 12) {
+  console.log("Ви народились зимою");
+} else {
+    console.log("Введіть число від 1 до 12");
+}
